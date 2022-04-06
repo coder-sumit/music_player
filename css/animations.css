@@ -1,0 +1,87 @@
+/* animations for carusel */
+
+@keyframes image1 {
+    0% {}
+
+    25% {
+        z-index: 0;
+        right: 0;
+        top: 0;
+        height: 80%;
+        width: 50%;
+        transform: translateY(12%);
+    }
+
+    75% {
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 80%;
+        width: 50%;
+        transform: translateY(12%);
+    }
+
+    100% {
+        z-index: 2;
+        top: -1rem;
+    }
+}
+
+@keyframes image2 {
+    0% {}
+
+    25% {
+        z-index: 2;
+        top: -1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        height: 115%;
+    }
+
+    75% {
+        z-index: 0;
+        right: 0;
+        top: 0;
+        height: 80%;
+        width: 50%;
+        transform: translateY(12%);
+    }
+
+    100% {
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 80%;
+        width: 50%;
+        transform: translateY(12%);
+    }
+}
+
+@keyframes image3{
+    0%{}
+    25%{
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 80%;
+        width: 50%;
+        transform: translateY(12%);
+    }
+    75%{
+        z-index: 2;
+        top: -1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        height: 115%;
+    }
+    100%{
+        z-index: 0;
+        right: 0;
+        top: 0;
+        height: 80%;
+        width: 50%;
+        transform: translateY(12%);
+    }
+}
